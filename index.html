@@ -1,38 +1,60 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Leo1</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="landing is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Page Wrapper -->
-		<div id="page-wrapper">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-			<!-- Header -->
-			<header id="header" class="alt">
-				<h1><a href="index.html">Your Name</a></h1>
-			</header>
+        .contact-card {
+            background-color: white;
+            padding: 2rem 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
 
-			<!-- Contact Info Section -->
-			<section id="contact" class="wrapper special">
-				<div class="inner">
-					<header class="major">
-						<h2>Leo2</h2>
-						<p>Email: <a href="mailto:you@example.com">leoanthony06@gmail.com</a><br />
-						Phone: +91 9380020063</p>
-					</header>
-				</div>
-			</section>
+        .contact-card h1 {
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            color: #333;
+        }
 
-		</div>
+        .contact-card p {
+            font-size: 1.2rem;
+            color: #555;
+            margin: 0.5rem 0;
+        }
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-  
+        .contact-card a {
+            color: #007acc;
+            text-decoration: none;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-card">
+        <h1>Leo Anthony</h1>
+        <p>Email: <a href="mailto:leo.anthony@example.com">leo.anthony@example.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+    </div>
+</body>
+
+</html>
